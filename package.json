@@ -1,7 +1,7 @@
 {
-  "name": "angular-daterangepicker",
-  "version": "0.2.2",
-  "homepage": "https://github.com/fragaria/angular-daterangepicker",
+  "name": "oobj-angular-daterangepicker",
+  "version": "1.0.0",
+  "homepage": "https://github.com/oobj/oobj-angular-daterangepicker",
   "authors": [
     "Filip Vařecha <filip.varecha@fragaria.cz>",
     "Tibor Kulčár <tibor.kulcar@fragaria.cz>",
@@ -13,7 +13,7 @@
   "dependencies": {
     "angular": "^1.2.17",
     "bootstrap": "^3.0.0",
-    "bootstrap-daterangepicker": "^2.0.0"
+    "bootstrap-daterangepicker": "^2.1.25"
   },
   "main": "index.js",
   "devDependencies": {
