@@ -11,8 +11,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "angular": "^1.2.17",
-    "bootstrap": "^3.0.0",
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
     "bootstrap-daterangepicker": "^2.1.25"
   },
   "main": "index.js",
