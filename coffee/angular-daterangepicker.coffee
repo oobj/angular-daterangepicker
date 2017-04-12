@@ -41,12 +41,16 @@ picker.directive 'dateRangePicker', ($compile, $timeout, $parse, dateRangePicker
           setter(moment(newValue))
 
     _setStartDate = _setDatePoint (m) ->
+      if (!m._isValid)
+        m = moment()
       if (_picker.endDate < m)
         _picker.setEndDate(m)
       opts.startDate = m
       _picker.setStartDate(m)
 
     _setEndDate = _setDatePoint (m) ->
+      if (!m._isValid)
+        m = moment()
       if (_picker.startDate > m)
         _picker.setStartDate(m)
       opts.endDate = m
